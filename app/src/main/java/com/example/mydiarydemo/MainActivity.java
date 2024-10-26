@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-        //readFromFile();
+        readFromFile();
 
     }
     public void writeToFile(String text)
@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
-/*
+
     public void readFromFile()
     {
         try {
@@ -87,5 +87,5 @@ public class MainActivity extends AppCompatActivity {
             throw new RuntimeException(e);
         }
 
-    }*/
+    }
 }
